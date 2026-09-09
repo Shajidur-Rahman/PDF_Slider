@@ -1,0 +1,66 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Deep Charcoal Rounded Background -->
+    <path
+        android:fillColor="#12141C"
+        android:pathData="M80,0 L432,0 A80,80 0,0 1 512,80 L512,432 A80,80 0,0 1 432,512 L80,512 A80,80 0,0 1 0,432 L0,80 A80,80 0,0 1 80,0 Z" />
+
+    <!-- A4 Document Outline Grid in Subtle Dark Blue -->
+    <path
+        android:fillColor="#1E2230"
+        android:pathData="M96,48 L416,48 A24,24 0,0 1 440,72 L440,440 A24,24 0,0 1 416,464 L96,464 A24,24 0,0 1 72,440 L72,72 A24,24 0,0 1 96,48 Z"
+        android:strokeWidth="4"
+        android:strokeColor="#2E364F" />
+
+    <!-- 3-Up Slide 1 (Top) -->
+    <path
+        android:fillColor="#182A3A"
+        android:pathData="M112,80 L400,80 A12,12 0,0 1 412,92 L412,172 A12,12 0,0 1 400,184 L112,184 A12,12 0,0 1 100,172 L100,92 A12,12 0,0 1 112,80 Z"
+        android:strokeWidth="6"
+        android:strokeColor="#00E5FF" />
+
+    <!-- Slide 1 Schematic Content Lines -->
+    <path
+        android:pathData="M132,112 L280,112 M132,132 L340,132 M132,152 L220,152"
+        android:strokeWidth="6"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round" />
+
+    <!-- 3-Up Slide 2 (Middle) -->
+    <path
+        android:fillColor="#182A3A"
+        android:pathData="M112,204 L400,204 A12,12 0,0 1 412,216 L412,296 A12,12 0,0 1 400,308 L112,308 A12,12 0,0 1 100,296 L100,216 A12,12 0,0 1 112,204 Z"
+        android:strokeWidth="6"
+        android:strokeColor="#00E5FF" />
+
+    <!-- Slide 2 Schematic Content Lines -->
+    <path
+        android:pathData="M132,236 L320,236 M132,256 L260,256 M132,276 L360,276"
+        android:strokeWidth="6"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round" />
+
+    <!-- 3-Up Slide 3 (Bottom) -->
+    <path
+        android:fillColor="#182A3A"
+        android:pathData="M112,328 L400,328 A12,12 0,0 1 412,340 L412,420 A12,12 0,0 1 400,432 L112,432 A12,12 0,0 1 100,420 L100,340 A12,12 0,0 1 112,328 Z"
+        android:strokeWidth="6"
+        android:strokeColor="#00E5FF" />
+
+    <!-- Slide 3 Schematic Content Lines -->
+    <path
+        android:pathData="M132,360 L300,360 M132,380 L350,380 M132,400 L200,400"
+        android:strokeWidth="6"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round" />
+
+    <!-- Binding Holes Effect on Left Margin -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M48,132 A12,12 0,1,1 48,132.1 M48,256 A12,12 0,1,1 48,256.1 M48,380 A12,12 0,1,1 48,380.1" />
+
+</vector>
